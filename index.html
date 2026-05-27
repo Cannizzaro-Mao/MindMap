@@ -2,9 +2,79 @@
 <html lang="zh">
 <head>
     <meta charset="UTF-8">
-    <title>MindMap</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>思维导图站 - 索引目录</title>
+    <style>
+        body {
+            font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+            max-width: 1000px;
+            margin: 2rem auto;
+            padding: 0 1.5rem;
+            background: #f6f8fa;
+        }
+        h1 {
+            color: #24292f;
+            border-bottom: 1px solid #e1e4e8;
+            padding-bottom: 0.3rem;
+        }
+        .file-tree {
+            list-style: none;
+            padding-left: 0;
+        }
+        .file-tree ul {
+            list-style: none;
+            padding-left: 1.5rem;
+        }
+        .folder {
+            margin: 0.4rem 0;
+            cursor: default;
+        }
+        details {
+            margin-left: 0;
+        }
+        summary {
+            cursor: pointer;
+            font-weight: 500;
+            color: #0969da;
+            outline: none;
+        }
+        summary:hover {
+            color: #0550ae;
+        }
+        .file {
+            margin: 0.25rem 0 0.25rem 1.2rem;
+        }
+        a {
+            text-decoration: none;
+            color: #0969da;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .note {
+            background: #fff;
+            padding: 0.5rem 1rem;
+            border-radius: 8px;
+            margin-top: 1rem;
+            border: 1px solid #e1e4e8;
+            color: #57606a;
+        }
+    </style>
 </head>
 <body>
-    MindMap<!-- 这里是空白的，但结构完整 -->
+    <h1>📚 文件索引</h1>
+    <div class="note">💡 点击文件夹前的 <strong>▶</strong> 可展开/收起子目录。</div>
+    <ul class="file-tree">
+  <li class="folder">
+    <details>
+      <summary>📁 Crash Course Computer Science</summary>
+      <ul class="file-tree">
+  <li class="file"><a href="Crash Course Computer Science/2.Electronic Computing.html">2.Electronic Computing</a></li>
+</ul>
+
+    </details>
+  </li>
+</ul>
+
 </body>
 </html>
