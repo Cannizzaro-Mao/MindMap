@@ -2,28 +2,34 @@ name: 自动更新索引页
 
 on:
   push:
-    branches: ["main"] # 当向 main 分支推送代码时触发
+    branches: ["main"]
+
+permissions:
+  contents: write   # 授予写入权限
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v4 # 第一步：将你的代码签出到虚拟环境中
+    - uses: actions/checkout@v4
+      with:
+        persist-credentials: true  # 确保 Git 凭据保留
 
-    - name: 设置 Python 环境 # 第二步：安装 Python
+    - name: 设置 Python 环境
       uses: actions/setup-python@v5
       with:
-        python-version: '3.11' # 指定 Python 版本
+        python-version: '3.11'
 
-    - name: 运行构建脚本 # 第三步：执行我们刚才编写的 Python 脚本
-      run: python build_index.py # 确保脚本文件名无误
+    - name: 运行构建脚本
+      run: python build_index.py
 
-    - name: 提交并推送变更 # 第四步：将自动生成的 index.html 提交回仓库
+    - name: 提交并推送变更
       run: |
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
         git add index.html
-        # 只有当 index.html 文件内容有变化时才提交，避免空提交
-        git diff --staged --quiet || git commit -m "🤖 由 GitHub Actions 自动更新索引页"
+        git diff --staged --quiet || git commit -m "🤖 自动更新索引页"
         git push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # 使用内置 token
