@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+.markmap-dark {
+  background: #27272a;
+  color: white;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/style.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.18.12/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/index.js"></script><script>(()=>{setTimeout(()=>{const{markmap:S,mm:Q}=window,$=new S.Toolbar;$.attach(Q);const I=$.render();I.setAttribute("style","position:absolute;bottom:20px;right:20px"),document.body.append(I)})})()</script><script>((l,U,M,R)=>{const N=l();window.mm=N.Markmap.create("svg#mindmap",(U||N.deriveOptions)(R),M),window.matchMedia("(prefers-color-scheme: dark)").matches&&document.documentElement.classList.add("markmap-dark")})(()=>window.markmap,null,{"content":"&#x7b97;&#x672f;&#x903b;&#x8f91;&#x5355;&#x5143; (ALU)","children":[{"content":"\n<p data-lines=\"2,3\">&#x7b97;&#x672f;&#x5355;&#x5143; (Arithmetic Unit)</p>","children":[{"content":"&#x6838;&#x5fc3;&#x529f;&#x80fd;","children":[{"content":"&#x57fa;&#x7840;&#x8fd0;&#x7b97; (&#x52a0;&#x6cd5;&#x3001;&#x51cf;&#x6cd5;&#x3001;&#x589e;&#x91cf;)","children":[],"payload":{"tag":"li","lines":"4,5"}},{"content":"&#x4e58;&#x9664;&#x6cd5; (&#x901a;&#x8fc7;&#x91cd;&#x590d;&#x52a0;&#x6cd5;&#x6216;&#x4e13;&#x7528;&#x7535;&#x8def;)","children":[],"payload":{"tag":"li","lines":"5,6"}}],"payload":{"tag":"li","lines":"3,6"}},{"content":"&#x52a0;&#x6cd5;&#x5668;&#x5b9e;&#x73b0;","children":[{"content":"&#x534a;&#x52a0;&#x5668; (2&#x8f93;&#x5165;&#x4f4d;&#xff0c;&#x8f93;&#x51fa;&#x548c;&#x4e0e;&#x8fdb;&#x4f4d;)","children":[],"payload":{"tag":"li","lines":"7,8"}},{"content":"&#x5168;&#x52a0;&#x5668; (3&#x8f93;&#x5165;&#x4f4d;&#xff0c;&#x5904;&#x7406;&#x524d;&#x7ea7;&#x8fdb;&#x4f4d;)","children":[],"payload":{"tag":"li","lines":"8,9"}},{"content":"8&#x4f4d;&#x884c;&#x6ce2;&#x8fdb;&#x4f4d;&#x52a0;&#x5668; (&#x7ea7;&#x8054;&#x5168;&#x52a0;&#x5668;)","children":[],"payload":{"tag":"li","lines":"9,10"}},{"content":"&#x8d85;&#x524d;&#x8fdb;&#x4f4d;&#x52a0;&#x5668; (&#x73b0;&#x4ee3;&#x9ad8;&#x901f;&#x7535;&#x8def;)","children":[],"payload":{"tag":"li","lines":"10,11"}}],"payload":{"tag":"li","lines":"6,11"}},{"content":"&#x6ea2;&#x51fa; (Overflow)","children":[{"content":"&#x5b9a;&#x4e49;&#xff1a;&#x7ed3;&#x679c;&#x8d85;&#x51fa;&#x4f4d;&#x6570;&#x8868;&#x793a;&#x8303;&#x56f4;","children":[],"payload":{"tag":"li","lines":"12,13"}},{"content":"&#x5f71;&#x54cd;&#xff1a;&#x5bfc;&#x81f4;&#x9519;&#x8bef;&#x6216;&#x610f;&#x5916;&#x884c;&#x4e3a;","children":[],"payload":{"tag":"li","lines":"13,14"}}],"payload":{"tag":"li","lines":"11,14"}}],"payload":{"tag":"li","lines":"2,14"}},{"content":"\n<p data-lines=\"14,15\">&#x903b;&#x8f91;&#x5355;&#x5143; (Logic Unit)</p>","children":[{"content":"&#x903b;&#x8f91;&#x8fd0;&#x7b97; (AND, OR, NOT, XOR)","children":[],"payload":{"tag":"li","lines":"15,16"}},{"content":"&#x6570;&#x503c;&#x6d4b;&#x8bd5; (&#x4f8b;&#x5982;&#xff1a;&#x96f6;&#x68c0;&#x6d4b;&#x7535;&#x8def;)","children":[],"payload":{"tag":"li","lines":"16,17"}}],"payload":{"tag":"li","lines":"14,17"}},{"content":"\n<p data-lines=\"17,18\">ALU &#x7ed3;&#x6784;&#x4e0e;&#x7b26;&#x53f7;</p>","children":[{"content":"&#x62bd;&#x8c61;&#x7b26;&#x53f7; (&#x5927;&#x201c;V&#x201d;&#x5b57;&#x5f62;)","children":[],"payload":{"tag":"li","lines":"18,19"}},{"content":"&#x8f93;&#x5165;/&#x8f93;&#x51fa;","children":[{"content":"&#x64cd;&#x4f5c;&#x6570; (Input A &amp; B)","children":[],"payload":{"tag":"li","lines":"20,21"}},{"content":"&#x64cd;&#x4f5c;&#x7801; (Operation Code)","children":[],"payload":{"tag":"li","lines":"21,22"}},{"content":"&#x8ba1;&#x7b97;&#x7ed3;&#x679c; (Output)","children":[],"payload":{"tag":"li","lines":"22,23"}}],"payload":{"tag":"li","lines":"19,23"}},{"content":"&#x72b6;&#x6001;&#x6807;&#x5fd7; (Flags)","children":[{"content":"&#x96f6;&#x6807;&#x5fd7; (Zero Flag)","children":[],"payload":{"tag":"li","lines":"24,25"}},{"content":"&#x8d1f;&#x6807;&#x5fd7; (Negative Flag)","children":[],"payload":{"tag":"li","lines":"25,26"}},{"content":"&#x6ea2;&#x51fa;&#x6807;&#x5fd7; (Overflow Flag)","children":[],"payload":{"tag":"li","lines":"26,28"}}],"payload":{"tag":"li","lines":"23,28"}}],"payload":{"tag":"li","lines":"17,28"}},{"content":"\n<p data-lines=\"28,29\">Intel 74181 - (&#x9996;&#x4e2a;&#x5355;&#x82af;&#x7247;ALU)</p>","children":[],"payload":{"tag":"li","lines":"28,29"}}],"payload":{"tag":"h2","lines":"1,2"}},null)</script>
+</body>
+</html>
