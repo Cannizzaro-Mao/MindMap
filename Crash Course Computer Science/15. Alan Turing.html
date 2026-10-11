@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+.markmap-dark {
+  background: #27272a;
+  color: white;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/style.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.18.12/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/index.js"></script><script>(()=>{setTimeout(()=>{const{markmap:S,mm:Q}=window,$=new S.Toolbar;$.attach(Q);const I=$.render();I.setAttribute("style","position:absolute;bottom:20px;right:20px"),document.body.append(I)})})()</script><script>((l,U,M,R)=>{const N=l();window.mm=N.Markmap.create("svg#mindmap",(U||N.deriveOptions)(R),M),window.matchMedia("(prefers-color-scheme: dark)").matches&&document.documentElement.classList.add("markmap-dark")})(()=>window.markmap,null,{"content":"&#x963f;&#x5170;&#xb7;&#x56fe;&#x7075;&#xff08;Alan Turing&#xff09;","children":[{"content":"&#x7406;&#x8bba;&#x8ba1;&#x7b97;&#x57fa;&#x7840;","children":[{"content":"&#x5224;&#x5b9a;&#x95ee;&#x9898; (Entscheidungsproblem)","children":[],"payload":{"tag":"li","lines":"2,3"}},{"content":"&#x3bb;&#x6f14;&#x7b97; (Lambda Calculus)","children":[],"payload":{"tag":"li","lines":"3,4"}},{"content":"&#x901a;&#x7528;&#x7b97;&#x6cd5;&#x4e0d;&#x5b58;&#x5728;&#x6027;","children":[],"payload":{"tag":"li","lines":"4,5"}}],"payload":{"tag":"li","lines":"1,5"}},{"content":"&#x56fe;&#x7075;&#x673a; (Turing Machine)","children":[{"content":"&#x7269;&#x7406;&#x7ec4;&#x6210;","children":[{"content":"&#x65e0;&#x9650;&#x78c1;&#x5e26; (Memory Tape)","children":[],"payload":{"tag":"li","lines":"7,8"}},{"content":"&#x8bfb;&#x5199;&#x5934; (Read/Write Head)","children":[],"payload":{"tag":"li","lines":"8,9"}},{"content":"&#x72b6;&#x6001;&#x53d8;&#x91cf; (State Variable)","children":[],"payload":{"tag":"li","lines":"9,10"}},{"content":"&#x8f6c;&#x6362;&#x89c4;&#x5219; (Rules)","children":[],"payload":{"tag":"li","lines":"10,11"}}],"payload":{"tag":"li","lines":"6,11"}},{"content":"&#x56fe;&#x7075;&#x5b8c;&#x5907; (Turing Complete)","children":[],"payload":{"tag":"li","lines":"11,12"}},{"content":"&#x505c;&#x673a;&#x95ee;&#x9898; (Halting Problem)","children":[],"payload":{"tag":"li","lines":"12,13"}}],"payload":{"tag":"li","lines":"5,13"}},{"content":"&#x4eba;&#x5de5;&#x667a;&#x80fd; (Artificial Intelligence)","children":[{"content":"&#x56fe;&#x7075;&#x6d4b;&#x8bd5; (Turing Test)","children":[],"payload":{"tag":"li","lines":"14,15"}},{"content":"CAPTCHA (&#x9a8c;&#x8bc1;&#x7801;)","children":[],"payload":{"tag":"li","lines":"15,16"}}],"payload":{"tag":"li","lines":"13,16"}}],"payload":{"tag":"li","lines":"0,16"}},null)</script>
+</body>
+</html>

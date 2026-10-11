@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+.markmap-dark {
+  background: #27272a;
+  color: white;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/style.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.18.12/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/index.js"></script><script>(()=>{setTimeout(()=>{const{markmap:S,mm:Q}=window,$=new S.Toolbar;$.attach(Q);const I=$.render();I.setAttribute("style","position:absolute;bottom:20px;right:20px"),document.body.append(I)})})()</script><script>((l,U,M,R)=>{const N=l();window.mm=N.Markmap.create("svg#mindmap",(U||N.deriveOptions)(R),M),window.matchMedia("(prefers-color-scheme: dark)").matches&&document.documentElement.classList.add("markmap-dark")})(()=>window.markmap,null,{"content":"&#x8ba1;&#x7b97;&#x673a;&#x6307;&#x4ee4;&#x4e0e;&#x7a0b;&#x5e8f;","children":[{"content":"&#x6307;&#x4ee4;&#x57fa;&#x7840;","children":[{"content":"&#x64cd;&#x4f5c;&#x7801; (Opcode)","children":[],"payload":{"tag":"li","lines":"2,3"}},{"content":"&#x64cd;&#x4f5c;&#x6570; (Address/Register)","children":[],"payload":{"tag":"li","lines":"3,4"}},{"content":"&#x8f6f;&#x4ef6;&#x7075;&#x6d3b;&#x6027; (Programmability)","children":[],"payload":{"tag":"li","lines":"4,5"}}],"payload":{"tag":"li","lines":"1,5"}},{"content":"&#x7f16;&#x7a0b;&#x6982;&#x5ff5;","children":[{"content":"&#x6b7b;&#x5faa;&#x73af; (Infinite Loop)","children":[],"payload":{"tag":"li","lines":"6,7"}},{"content":"&#x6761;&#x4ef6;&#x5224;&#x65ad; (Conditional Jump)","children":[],"payload":{"tag":"li","lines":"7,8"}}],"payload":{"tag":"li","lines":"5,8"}},{"content":"&#x73b0;&#x4ee3; CPU &#x4f18;&#x5316;","children":[{"content":"&#x6269;&#x5927;&#x6307;&#x4ee4;&#x957f;&#x5ea6; (32/64&#x4f4d;)","children":[],"payload":{"tag":"li","lines":"9,10"}},{"content":"&#x53ef;&#x53d8;&#x957f;&#x5ea6;&#x6307;&#x4ee4; (Variable Length)","children":[],"payload":{"tag":"li","lines":"10,11"}},{"content":"&#x7acb;&#x5373;&#x6570; (Immediate Value)","children":[],"payload":{"tag":"li","lines":"11,12"}}],"payload":{"tag":"li","lines":"8,12"}}],"payload":{"tag":"li","lines":"0,12"}},null)</script>
+</body>
+</html>

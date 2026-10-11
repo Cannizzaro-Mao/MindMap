@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+.markmap-dark {
+  background: #27272a;
+  color: white;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/style.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.18.12/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/index.js"></script><script>(()=>{setTimeout(()=>{const{markmap:S,mm:Q}=window,$=new S.Toolbar;$.attach(Q);const I=$.render();I.setAttribute("style","position:absolute;bottom:20px;right:20px"),document.body.append(I)})})()</script><script>((l,U,M,R)=>{const N=l();window.mm=N.Markmap.create("svg#mindmap",(U||N.deriveOptions)(R),M),window.matchMedia("(prefers-color-scheme: dark)").matches&&document.documentElement.classList.add("markmap-dark")})(()=>window.markmap,null,{"content":"&#x7b97;&#x6cd5;&#x57fa;&#x7840; (Intro to Algorithms)","children":[{"content":"&#x7b97;&#x6cd5;&#x5b9a;&#x4e49;","children":[{"content":"&#x89e3;&#x51b3;&#x8ba1;&#x7b97;&#x95ee;&#x9898;&#x7684;&#x7279;&#x5b9a;&#x6b65;&#x9aa4;","children":[],"payload":{"tag":"li","lines":"2,3"}},{"content":"&#x8bc4;&#x4ef7;&#x6307;&#x6807;: &#x6b65;&#x6570;&#x4e0e;&#x5185;&#x5b58; (Steps &amp; Memory)","children":[],"payload":{"tag":"li","lines":"3,4"}}],"payload":{"tag":"li","lines":"1,4"}},{"content":"&#x6392;&#x5e8f;&#x7b97;&#x6cd5; (Sorting Algorithms)","children":[{"content":"&#x9009;&#x62e9;&#x6392;&#x5e8f; (Selection Sort)","children":[{"content":"&#x539f;&#x7406;: &#x626b;&#x63cf;&#x6700;&#x5c0f;&#x503c;&#x5e76;&#x4ea4;&#x6362;","children":[],"payload":{"tag":"li","lines":"6,7"}},{"content":"&#x590d;&#x6742;&#x5ea6;: O(N&#xb2;)","children":[],"payload":{"tag":"li","lines":"7,8"}},{"content":"&#x6548;&#x7387;: &#x968f;&#x89c4;&#x6a21;&#x6307;&#x6570;&#x7ea7;&#x53d8;&#x6162;","children":[],"payload":{"tag":"li","lines":"8,9"}}],"payload":{"tag":"li","lines":"5,9"}},{"content":"&#x5f52;&#x5e76;&#x6392;&#x5e8f; (Merge Sort)","children":[{"content":"&#x539f;&#x7406;: &#x62c6;&#x5206;&#x6570;&#x7ec4;&#x518d;&#x5408;&#x5e76;&#x6392;&#x5e8f;","children":[],"payload":{"tag":"li","lines":"10,11"}},{"content":"&#x590d;&#x6742;&#x5ea6;: O(N log N)","children":[],"payload":{"tag":"li","lines":"11,12"}},{"content":"&#x4f18;&#x52bf;: &#x9ad8;&#x6548;&#x5904;&#x7406;&#x5927;&#x89c4;&#x6a21;&#x6570;&#x636e;","children":[],"payload":{"tag":"li","lines":"12,13"}}],"payload":{"tag":"li","lines":"9,13"}}],"payload":{"tag":"li","lines":"4,13"}},{"content":"&#x5927;O&#x8868;&#x793a;&#x6cd5; (Big O Notation)","children":[{"content":"&#x63cf;&#x8ff0;&#x7b97;&#x6cd5;&#x590d;&#x6742;&#x5ea6; (Computational Complexity)","children":[],"payload":{"tag":"li","lines":"14,15"}},{"content":"&#x8f93;&#x5165;&#x89c4;&#x6a21;&#x4e0e;&#x8fd0;&#x884c;&#x65f6;&#x95f4;&#x7684;&#x5173;&#x7cfb;","children":[],"payload":{"tag":"li","lines":"15,16"}}],"payload":{"tag":"li","lines":"13,16"}},{"content":"&#x56fe;&#x641c;&#x7d22;&#x7b97;&#x6cd5; (Graph Search)","children":[{"content":"&#x56fe;&#x7684;&#x6982;&#x5ff5; (Graph)","children":[{"content":"&#x8282;&#x70b9; (Nodes)","children":[],"payload":{"tag":"li","lines":"18,19"}},{"content":"&#x6743;&#x91cd;/&#x6210;&#x672c; (Weight/Cost)","children":[],"payload":{"tag":"li","lines":"19,20"}}],"payload":{"tag":"li","lines":"17,20"}},{"content":"&#x8def;&#x5f84;&#x5bfb;&#x627e;","children":[{"content":"&#x66b4;&#x529b;&#x641c;&#x7d22; (Brute Force): O(N!)","children":[],"payload":{"tag":"li","lines":"21,22"}},{"content":"&#x8fea;&#x6770;&#x65af;&#x7279;&#x62c9;&#x7b97;&#x6cd5; (Dijkstra&apos;s Algorithm)","children":[],"payload":{"tag":"li","lines":"22,23"}},{"content":"&#x7528;&#x9014;: &#x8ba1;&#x7b97;&#x6700;&#x77ed;&#x8def;&#x5f84;","children":[],"payload":{"tag":"li","lines":"23,24"}},{"content":"&#x4f18;&#x5316;&#x590d;&#x6742;&#x5ea6;: O(N log N + E)","children":[],"payload":{"tag":"li","lines":"24,25"}}],"payload":{"tag":"li","lines":"20,25"}}],"payload":{"tag":"li","lines":"16,25"}}],"payload":{"tag":"li","lines":"0,25"}},null)</script>
+</body>
+</html>

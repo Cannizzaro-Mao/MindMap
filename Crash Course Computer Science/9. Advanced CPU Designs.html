@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+.markmap-dark {
+  background: #27272a;
+  color: white;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/style.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.18.12/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/index.js"></script><script>(()=>{setTimeout(()=>{const{markmap:S,mm:Q}=window,$=new S.Toolbar;$.attach(Q);const I=$.render();I.setAttribute("style","position:absolute;bottom:20px;right:20px"),document.body.append(I)})})()</script><script>((l,U,M,R)=>{const N=l();window.mm=N.Markmap.create("svg#mindmap",(U||N.deriveOptions)(R),M),window.matchMedia("(prefers-color-scheme: dark)").matches&&document.documentElement.classList.add("markmap-dark")})(()=>window.markmap,null,{"content":"&#x9ad8;&#x7ea7; CPU &#x8bbe;&#x8ba1;","children":[{"content":"&#x6307;&#x4ee4;&#x96c6;&#x4e0e;&#x4e13;&#x7528;&#x7535;&#x8def;","children":[{"content":"&#x786c;&#x4ef6;&#x5b9e;&#x73b0;&#x590d;&#x6742;&#x8fd0;&#x7b97;","children":[],"payload":{"tag":"li","lines":"2,3"}},{"content":"&#x4e13;&#x7528;&#x7535;&#x8def; (&#x56fe;&#x5f62;&#x3001;&#x89c6;&#x9891;&#x3001;&#x52a0;&#x5bc6;)","children":[],"payload":{"tag":"li","lines":"3,4"}}],"payload":{"tag":"li","lines":"1,4"}},{"content":"&#x7f13;&#x5b58;&#x6280;&#x672f; (Cache)","children":[{"content":"&#x7f13;&#x89e3; RAM &#x5b58;&#x53d6;&#x74f6;&#x9888;","children":[],"payload":{"tag":"li","lines":"5,6"}},{"content":"&#x7f13;&#x5b58;&#x547d;&#x4e2d;&#x4e0e;&#x7f3a;&#x5931; (Hit/Miss)","children":[],"payload":{"tag":"li","lines":"6,7"}},{"content":"&#x7a7a;&#x95f4;&#x5c40;&#x90e8;&#x6027; (&#x6570;&#x636e;&#x5757;&#x4f20;&#x8f93;)","children":[],"payload":{"tag":"li","lines":"7,8"}},{"content":"&#x810f;&#x4f4d; (Dirty Bit) &#x540c;&#x6b65;","children":[],"payload":{"tag":"li","lines":"8,9"}}],"payload":{"tag":"li","lines":"4,9"}},{"content":"&#x6d41;&#x6c34;&#x7ebf;&#x6280;&#x672f; (Pipelining)","children":[{"content":"&#x5e76;&#x884c;&#x5316;&#x53d6;&#x6307;-&#x89e3;&#x7801;-&#x6267;&#x884c;","children":[],"payload":{"tag":"li","lines":"10,11"}},{"content":"&#x6570;&#x636e;&#x4f9d;&#x8d56;&#x4e0e;&#x4e71;&#x5e8f;&#x6267;&#x884c;","children":[],"payload":{"tag":"li","lines":"11,12"}},{"content":"&#x5206;&#x652f;&#x9884;&#x6d4b;&#x4e0e;&#x63a8;&#x6d4b;&#x6267;&#x884c;","children":[],"payload":{"tag":"li","lines":"12,13"}},{"content":"&#x6d41;&#x6c34;&#x7ebf;&#x51b2;&#x5237; (Flush)","children":[],"payload":{"tag":"li","lines":"13,14"}}],"payload":{"tag":"li","lines":"9,14"}},{"content":"&#x5e76;&#x884c;&#x5316;&#x4e0e;&#x89c4;&#x6a21;&#x5316;","children":[{"content":"&#x5355;&#x82af;&#x7247;&#x5e76;&#x884c;","children":[{"content":"&#x8d85;&#x6807;&#x91cf; (&#x5355;&#x5468;&#x671f;&#x591a;&#x6307;&#x4ee4;)","children":[],"payload":{"tag":"li","lines":"16,17"}},{"content":"&#x591a;&#x6838;&#x5904;&#x7406;&#x5668; (&#x5171;&#x4eab;&#x7f13;&#x5b58;)","children":[],"payload":{"tag":"li","lines":"17,18"}}],"payload":{"tag":"li","lines":"15,18"}},{"content":"&#x7cfb;&#x7edf;&#x7ea7;&#x5e76;&#x884c;","children":[{"content":"&#x591a;&#x5904;&#x7406;&#x5668;&#x7cfb;&#x7edf;","children":[],"payload":{"tag":"li","lines":"19,20"}},{"content":"&#x8d85;&#x7ea7;&#x8ba1;&#x7b97;&#x673a; (FLOPS)","children":[],"payload":{"tag":"li","lines":"20,21"}}],"payload":{"tag":"li","lines":"18,21"}}],"payload":{"tag":"li","lines":"14,21"}}],"payload":{"tag":"li","lines":"0,21"}},null)</script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+.markmap-dark {
+  background: #27272a;
+  color: white;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/style.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.18.12/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/index.js"></script><script>(()=>{setTimeout(()=>{const{markmap:S,mm:Q}=window,$=new S.Toolbar;$.attach(Q);const I=$.render();I.setAttribute("style","position:absolute;bottom:20px;right:20px"),document.body.append(I)})})()</script><script>((l,U,M,R)=>{const N=l();window.mm=N.Markmap.create("svg#mindmap",(U||N.deriveOptions)(R),M),window.matchMedia("(prefers-color-scheme: dark)").matches&&document.documentElement.classList.add("markmap-dark")})(()=>window.markmap,null,{"content":"&#x6570;&#x636e;&#x7ed3;&#x6784; (Data Structures)","children":[{"content":"&#x6570;&#x7ec4; (Arrays)","children":[{"content":"&#x7d22;&#x5f15; (Index) &#x4ece;0&#x5f00;&#x59cb;","children":[],"payload":{"tag":"li","lines":"2,3"}},{"content":"&#x5185;&#x5b58;&#x8fde;&#x7eed;&#x5b58;&#x50a8;","children":[],"payload":{"tag":"li","lines":"3,4"}},{"content":"&#x5b57;&#x7b26;&#x4e32; (Strings): &#x5b57;&#x7b26;&#x6570;&#x7ec4;, &#x4ee5;&#x7a7a;&#x5b57;&#x7b26; (Null) &#x7ed3;&#x5c3e;","children":[],"payload":{"tag":"li","lines":"4,5"}}],"payload":{"tag":"li","lines":"1,5"}},{"content":"&#x77e9;&#x9635; (Matrices)","children":[{"content":"&#x6570;&#x7ec4;&#x7684;&#x6570;&#x7ec4; (Array of Arrays)","children":[],"payload":{"tag":"li","lines":"6,7"}},{"content":"&#x652f;&#x6301;&#x591a;&#x7ef4;&#x7a7a;&#x95f4;","children":[],"payload":{"tag":"li","lines":"7,8"}}],"payload":{"tag":"li","lines":"5,8"}},{"content":"&#x7ed3;&#x6784;&#x4f53; (Structs)","children":[{"content":"&#x7ec4;&#x5408;&#x4e0d;&#x540c;&#x7c7b;&#x578b;&#x7684;&#x53d8;&#x91cf;","children":[],"payload":{"tag":"li","lines":"9,10"}},{"content":"&#x6307;&#x9488; (Pointers): &#x6307;&#x5411;&#x5185;&#x5b58;&#x5730;&#x5740;","children":[],"payload":{"tag":"li","lines":"10,11"}}],"payload":{"tag":"li","lines":"8,11"}},{"content":"&#x94fe;&#x8868; (Linked Lists)","children":[{"content":"&#x52a8;&#x6001;&#x6269;&#x5c55;/&#x7f29;&#x51cf;","children":[],"payload":{"tag":"li","lines":"12,13"}},{"content":"&#x8282;&#x70b9; (Nodes) &#x901a;&#x8fc7;&#x6307;&#x9488;&#x94fe;&#x63a5;","children":[],"payload":{"tag":"li","lines":"13,14"}},{"content":"&#x652f;&#x6301;&#x975e;&#x8fde;&#x7eed;&#x5185;&#x5b58;&#x5b58;&#x50a8;","children":[],"payload":{"tag":"li","lines":"14,15"}}],"payload":{"tag":"li","lines":"11,15"}},{"content":"&#x961f;&#x5217; (Queues)","children":[{"content":"&#x5148;&#x8fdb;&#x5148;&#x51fa; (FIFO)","children":[],"payload":{"tag":"li","lines":"16,17"}},{"content":"&#x5165;&#x961f; (Enqueue) &#x4e0e; &#x51fa;&#x961f; (Dequeue)","children":[],"payload":{"tag":"li","lines":"17,18"}}],"payload":{"tag":"li","lines":"15,18"}},{"content":"&#x6808; (Stacks)","children":[{"content":"&#x540e;&#x8fdb;&#x5148;&#x51fa; (LIFO)","children":[],"payload":{"tag":"li","lines":"19,20"}},{"content":"&#x8fdb;&#x6808; (Push) &#x4e0e; &#x51fa;&#x6808; (Pop)","children":[],"payload":{"tag":"li","lines":"20,21"}}],"payload":{"tag":"li","lines":"18,21"}},{"content":"&#x6811; (Trees)","children":[{"content":"&#x6839;&#x8282;&#x70b9; (Root), &#x7236;&#x8282;&#x70b9; (Parent), &#x5b50;&#x8282;&#x70b9; (Children)","children":[],"payload":{"tag":"li","lines":"22,23"}},{"content":"&#x53f6;&#x8282;&#x70b9; (Leaf Nodes): &#x65e0;&#x5b50;&#x8282;&#x70b9;","children":[],"payload":{"tag":"li","lines":"23,24"}},{"content":"&#x4e8c;&#x53c9;&#x6811; (Binary Tree): &#x6700;&#x591a;&#x4e24;&#x4e2a;&#x5b50;&#x8282;&#x70b9;","children":[],"payload":{"tag":"li","lines":"24,25"}}],"payload":{"tag":"li","lines":"21,25"}},{"content":"&#x56fe; (Graphs)","children":[{"content":"&#x4efb;&#x610f;&#x8fde;&#x63a5; (Arbitrary Links)","children":[],"payload":{"tag":"li","lines":"26,27"}},{"content":"&#x652f;&#x6301;&#x5faa;&#x73af; (Loops)","children":[],"payload":{"tag":"li","lines":"27,28"}}],"payload":{"tag":"li","lines":"25,28"}}],"payload":{"tag":"li","lines":"0,28"}},null)</script>
+</body>
+</html>
