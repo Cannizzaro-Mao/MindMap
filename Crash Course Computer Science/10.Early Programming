@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+.markmap-dark {
+  background: #27272a;
+  color: white;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/style.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.18.12/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/index.js"></script><script>(()=>{setTimeout(()=>{const{markmap:S,mm:Q}=window,$=new S.Toolbar;$.attach(Q);const I=$.render();I.setAttribute("style","position:absolute;bottom:20px;right:20px"),document.body.append(I)})})()</script><script>((l,U,M,R)=>{const N=l();window.mm=N.Markmap.create("svg#mindmap",(U||N.deriveOptions)(R),M),window.matchMedia("(prefers-color-scheme: dark)").matches&&document.documentElement.classList.add("markmap-dark")})(()=>window.markmap,null,{"content":"&#x65e9;&#x671f;&#x8ba1;&#x7b97;&#x673a;&#x7f16;&#x7a0b; (Early Programming)","children":[{"content":"&#x7a7f;&#x5b54;&#x5361;&#x7247;&#x4e0e;&#x7eb8;&#x5e26; (Punch Cards &amp; Paper Tape)","children":[{"content":"&#x63d0;&#x82b1;&#x7ec7;&#x673a;","children":[{"content":"&#x539f;&#x7406;: &#x7a7f;&#x5b54;&#x5361;&#x7247;&#x63a7;&#x5236;&#x7ecf;&#x7eac;&#x7ebf;&#x7ec7;&#x9020;&#x82b1;&#x7eb9;","children":[],"payload":{"tag":"li","lines":"3,4"}},{"content":"&#x610f;&#x4e49;: &#x6700;&#x65e9;&#x7684;&#x7f16;&#x7a0b;&#x5f62;&#x5f0f;&#x4e4b;&#x4e00;","children":[],"payload":{"tag":"li","lines":"4,5"}}],"payload":{"tag":"li","lines":"2,5"}},{"content":"1890&#x5e74;&#x4eba;&#x53e3;&#x666e;&#x67e5;","children":[{"content":"&#x7528;&#x9014;: &#x7edf;&#x8ba1;&#x4eba;&#x53e3;&#x6570;&#x636e;","children":[],"payload":{"tag":"li","lines":"6,7"}},{"content":"&#x5c40;&#x9650;: &#x4ec5;&#x5b58;&#x50a8;&#x6570;&#x636e;&#xff0c;&#x4e0d;&#x53ef;&#x7f16;&#x7a0b;","children":[],"payload":{"tag":"li","lines":"7,8"}}],"payload":{"tag":"li","lines":"5,8"}},{"content":"&#x5927;&#x89c4;&#x6a21;&#x5e94;&#x7528;&#x4e0e;&#x5b58;&#x50a8;","children":[{"content":"SAGE&#x9632;&#x7a7a;&#x7cfb;&#x7edf;: 62,500&#x5f20;&#x5361;&#x7247;","children":[],"payload":{"tag":"li","lines":"9,10"}},{"content":"&#x7a7f;&#x5b54;&#x7eb8;&#x5e26; (Punched Paper Tape)","children":[],"payload":{"tag":"li","lines":"10,11"}}],"payload":{"tag":"li","lines":"8,11"}}],"payload":{"tag":"li","lines":"1,11"}},{"content":"&#x63d2;&#x63a5;&#x677f;&#x7f16;&#x7a0b; (Plug Boards)","children":[{"content":"&#x5de5;&#x4f5c;&#x539f;&#x7406;","children":[{"content":"&#x63a7;&#x5236;&#x9762;&#x677f;&#x63d2;&#x7ebf;&#x4f20;&#x9012;&#x6570;&#x503c;&#x4e0e;&#x4fe1;&#x53f7;","children":[],"payload":{"tag":"li","lines":"13,14"}},{"content":"&#x7f3a;&#x70b9;: &#x7f16;&#x7a0b;&#x590d;&#x6742;&#x4e14;&#x8017;&#x65f6;","children":[],"payload":{"tag":"li","lines":"14,15"}}],"payload":{"tag":"li","lines":"12,15"}},{"content":"&#x5e94;&#x7528;&#x5b9e;&#x4f8b;","children":[{"content":"IBM 402 &#x4f1a;&#x8ba1;&#x673a;","children":[],"payload":{"tag":"li","lines":"16,17"}},{"content":"ENIAC: &#x5168;&#x7403;&#x9996;&#x53f0;&#x901a;&#x7528;&#x7535;&#x5b50;&#x8ba1;&#x7b97;&#x673a;","children":[],"payload":{"tag":"li","lines":"17,18"}}],"payload":{"tag":"li","lines":"15,18"}}],"payload":{"tag":"li","lines":"11,18"}},{"content":"&#x9762;&#x677f;&#x5f00;&#x5173;&#x7f16;&#x7a0b; (Panel Programming)","children":[{"content":"&#x64cd;&#x4f5c;&#x65b9;&#x5f0f;","children":[{"content":"&#x901a;&#x8fc7;&#x5f00;&#x5173;&#x548c;&#x6309;&#x94ae;&#x8f93;&#x5165;&#x6307;&#x4ee4;","children":[],"payload":{"tag":"li","lines":"20,21"}},{"content":"&#x6307;&#x793a;&#x706f;&#x663e;&#x793a;&#x5185;&#x5b58;&#x72b6;&#x6001;&#x4e0e;&#x6570;&#x503c;","children":[],"payload":{"tag":"li","lines":"21,22"}}],"payload":{"tag":"li","lines":"19,22"}},{"content":"Altair 8800","children":[{"content":"&#x5730;&#x4f4d;: &#x9996;&#x53f0;&#x5546;&#x4e1a;&#x6210;&#x529f;&#x5bb6;&#x7528;&#x8ba1;&#x7b97;&#x673a;","children":[],"payload":{"tag":"li","lines":"23,24"}},{"content":"&#x552e;&#x4ef7;: &#x7ea6;400&#x7f8e;&#x5143; (1975&#x5e74;)","children":[],"payload":{"tag":"li","lines":"24,25"}},{"content":"&#x64cd;&#x4f5c;: &#x62e8;&#x52a8;&#x5f00;&#x5173;&#x8f93;&#x5165;&#x4e8c;&#x8fdb;&#x5236;&#x6307;&#x4ee4;","children":[],"payload":{"tag":"li","lines":"25,26"}}],"payload":{"tag":"li","lines":"22,26"}}],"payload":{"tag":"li","lines":"18,26"}},{"content":"&#x5b58;&#x50a8;&#x7a0b;&#x5e8f;&#x8ba1;&#x7b97;&#x673a; (Stored-Program Computers)","children":[{"content":"&#x51af;&#xb7;&#x8bfa;&#x4f9d;&#x66fc;&#x67b6;&#x6784; (von Neumann Architecture)","children":[{"content":"&#x63d0;&#x51fa;&#x8005;: John von Neumann","children":[],"payload":{"tag":"li","lines":"28,29"}},{"content":"&#x6838;&#x5fc3;: &#x7a0b;&#x5e8f;&#x4e0e;&#x6570;&#x636e;&#x5b58;&#x5165;&#x540c;&#x4e00;&#x5185;&#x5b58;","children":[],"payload":{"tag":"li","lines":"29,30"}},{"content":"&#x5904;&#x7406;&#x5355;&#x5143;: &#x542b;&#x7b97;&#x672f;&#x903b;&#x8f91;&#x5355;&#x5143; (ALU)","children":[],"payload":{"tag":"li","lines":"30,31"}}],"payload":{"tag":"li","lines":"27,31"}},{"content":"&#x66fc;&#x5f7b;&#x65af;&#x7279;&#x5927;&#x5b66; Baby &#x8ba1;&#x7b97;&#x673a;","children":[{"content":"&#x5efa;&#x9020;&#x65f6;&#x95f4;: 1948&#x5e74;","children":[],"payload":{"tag":"li","lines":"32,33"}},{"content":"&#x5730;&#x4f4d;: &#x9996;&#x53f0;&#x51af;&#xb7;&#x8bfa;&#x4f9d;&#x66fc;&#x67b6;&#x6784;&#x8ba1;&#x7b97;&#x673a;","children":[],"payload":{"tag":"li","lines":"33,34"}}],"payload":{"tag":"li","lines":"31,34"}}],"payload":{"tag":"li","lines":"26,34"}}],"payload":{"tag":"li","lines":"0,34"}},null)</script>
+</body>
+</html>
